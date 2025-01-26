@@ -1,0 +1,11 @@
+  vesion: '3'
+  services:
+    web:
+      build: .
+      command: python app.py
+      ports:
+        - "5000:5000"
+      networks: 
+        - myapp_network
+    networks:
+      myapp_network:
