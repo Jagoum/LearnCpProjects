@@ -4,7 +4,8 @@
 
 
 
-int maxScore(char* s) {
+int maxScore(char* s)
+{
    
     int max = 0;
     int count1 = 0, count2 = 0;
