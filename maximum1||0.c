@@ -1,9 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+
+This program is to split a string of 0 and 1 and counts the number of zeroes 
+on the left array and the number of ones on the right hand side until .
+Now the numbers are sumed together and the process is repeated and the until the elment in the right array becomes one
 
 
-
+*/
 int maxScore(char* s)
 {
    
